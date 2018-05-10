@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add jquery
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  8.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 2400:cb00:2048:1::6810:3cad:443
+      at Object._errnoException (util.js:1022:11)
+      at _exceptionWithHostPort (util.js:1044:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)
+
+npm manifest: 
+  {
+    "name": "codefreecamp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
